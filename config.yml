@@ -1,0 +1,24 @@
+# config.yaml
+embedding_model: "text-embedding-ada-002"
+gpt_model: "gpt-3.5-turbo-16k"
+result_limit: 100
+
+
+# config.yaml
+openai_api_key: "your_openai_api_key_here"
+model_name: "text-embedding-ada-002"
+chroma:
+  collection_name: "langchain_store"
+  persist_directory: "./chroma_db"
+uvicorn:
+  host: "0.0.0.0"
+  port: 8000
+logging:
+  level: "INFO"
+
+
+data:
+  max_tokens: 400
+  html_file_extension: ".html"
+  encoding_model: "cl100k_base"
+  log_level: "INFO"
