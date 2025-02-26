@@ -3,7 +3,7 @@ import pandas as pd
 import tiktoken
 from src.search import search_similar_strings
 
-from config import Config
+from data_loading.config import Config
 
 cfg = Config()
 
